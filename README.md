@@ -2,11 +2,17 @@
 
 ```
 sudo apt install zsh
-sudo chsh -s /bin/zsh
+sudo chsh -s /bin/zsh  //for no root user you should change default shell in the /etc/passwd file by sudo vim /etc/passwd
 sudo apt install thefuck
 //perhaps need do later
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo ~/.fzf/install
+```
+#### Post install
+```
+git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 <p align="center">
