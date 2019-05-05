@@ -3,11 +3,12 @@
 ```
 sudo apt install zsh
 sudo chsh -s /bin/zsh  //for no root user you should change default shell in the /etc/passwd file by sudo vim /etc/passwd
-sudo apt install thefuck
+sudo apt install thefuck 
 //perhaps need do later
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo ~/.fzf/install
 ```
+perhaps you could do this by sudo pip install thefuck ,and before you should do this by ```sudo ln -sf /usr/bin/python3 /usr/bin/python``` and ```sudo ln -sf /usr/bin/pip3 /usr/bin/pip```
 #### Post install
 ```
 git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
