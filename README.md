@@ -1,3 +1,13 @@
+#### pre install and config
+
+```
+sudo apt install zsh
+sudo chsh -s /bin/zsh
+sudo apt install thefuck
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+sudo ~/.fzf/install
+```
+
 <p align="center">
   <img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh">
 </p>
