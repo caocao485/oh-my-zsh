@@ -4,6 +4,7 @@
 sudo apt install zsh
 sudo chsh -s /bin/zsh
 sudo apt install thefuck
+//perhaps need do later
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo ~/.fzf/install
 ```
