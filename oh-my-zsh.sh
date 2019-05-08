@@ -1,3 +1,4 @@
+#or you need add ZSH_DISABLE_COMPFIX  = true in here
 # Set ZSH_CACHE_DIR to the path where cache files should be created
 # or else we will use the default cache/
 if [[ -z "$ZSH_CACHE_DIR" ]]; then
