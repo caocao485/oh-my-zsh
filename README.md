@@ -1,5 +1,7 @@
 #### pre install and config
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3fb82c03d6e347bb8f7d9d3c3060df8d)](https://app.codacy.com/app/caocao485/oh-my-zsh?utm_source=github.com&utm_medium=referral&utm_content=caocao485/oh-my-zsh&utm_campaign=Badge_Grade_Dashboard)
+
 ```
 sudo apt install zsh
 sudo chsh -s /bin/zsh  //for no root user you should change default shell in the /etc/passwd file by sudo vim /etc/passwd
